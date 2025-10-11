@@ -72,3 +72,7 @@ public class Strategy_Design_Pattern {
         shopping3.pay(750);
     }
 }
+
+
+// by this we follow Open/Closed Principle as we can add new payment methods without modifying existing code
+// and we can easily switch between different payment strategies at runtime
